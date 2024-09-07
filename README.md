@@ -13,4 +13,5 @@ There are several algorithms to obtain the best schema to cut some bars on given
 -------------------------------------------
 
 ***Best schema*** - min bar number -> max remainder on the last bar -> min unique details on each bar.
+
 ***Best bar*** - min remainder -> min details num -> max length of first detail and so on.
