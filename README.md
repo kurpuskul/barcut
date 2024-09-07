@@ -8,3 +8,9 @@ There are several algorithms to obtain the best schema to cut some bars on given
 3. **ShuffleBest** - randomly shuffle the details list and find the best part of the chains as a bar, or several best parts, then take those details from list and continue while done.
 4. **BestBar** - get best combination for a detail chain for a bar from ordered details list.
 5. **BestBarLongest** - take the longest detail from a bar length, then get the best combination of ordered details list, where details fit to the remain length of the bar.
+6. Other algorithms to find a better cut schema for the details list on given bar length.
+
+-------------------------------------------
+
+***Best schema*** - min bar number -> max remainder on the last bar -> min unique details on each bar.
+***Best bar*** - min remainder -> min details num -> max length of first detail and so on.
